@@ -12,3 +12,8 @@
     ansible.builtin.debug:
     # vaes reference should be surrounded by ""
       msg: "Hello {{ Course }}, course duration: {{ Duration }}, Trainer is {{ Trainer }}"  # refer
+
+  - name: print the course information again
+    ansible.builtin.debug:
+    # vaes reference should be surrounded by ""
+      msg: "Hello {{ Course }}, course duration: {{ Duration }}, Trainer is {{ Trainer }}"  # refer
