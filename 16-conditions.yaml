@@ -1,6 +1,6 @@
 - name: playbook control using ansible facts
   hosts: frontend
-  become: Z6QgcgIhlttJ2W2P4WDEGMjoYvUaYdkiEscWsrcGaOWHoAADVMRnssx0O9cvmI6e
+  become: true
   tasks:
   - name: install nginx if redhat
     ansible.builtin.dnf:
