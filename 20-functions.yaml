@@ -34,4 +34,4 @@
     vars:
        name: "deena"
     ansible.builtin.debug:
-      mag: "Hello {{ name | upper }}"
+      msg: "Hello {{ name | upper }}"
