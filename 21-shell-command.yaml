@@ -8,4 +8,4 @@
 
   - name: print the oucome
     ansible.builtin.debug:
-      mag: "{{ command_result }}"  
+      msg: "{{ command_result }}"  
